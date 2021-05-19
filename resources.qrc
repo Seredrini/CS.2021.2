@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>grimoire.ico</file>
+        <file>error.ico</file>
+    </qresource>
+</RCC>

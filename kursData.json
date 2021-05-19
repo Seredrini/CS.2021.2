@@ -1,0 +1,148 @@
+{
+    "Relations": [
+        {
+            "First type": "Vampire",
+            "Relation ID": 1001,
+            "Relation Type": "Enemy",
+            "Second type": "Werewolf"
+        }
+    ],
+    "Sightings": [
+        {
+            "Amount": 0,
+            "Codename": "Butterfly",
+            "Description": "Goddamn",
+            "Location": "DVGUPS",
+            "Status": "Active"
+        },
+        {
+            "Amount": 8,
+            "Codename": "Eater",
+            "Description": "Stalks his prey",
+            "Location": "Circus",
+            "Status": "Solved"
+        },
+        {
+            "Amount": 1,
+            "Codename": "OS",
+            "Description": "Works hard",
+            "Location": "Decanat",
+            "Status": "Active"
+        }
+    ],
+    "Types": [
+        {
+            "Danger level": 0,
+            "Description": "Very tired too",
+            "Name": "Werewolf",
+            "Parent type": "None",
+            "Relations": [
+                {
+                    "ID": 1001
+                }
+            ],
+            "Sightings": [
+                {
+                    "Codename": "Eater"
+                }
+            ]
+        },
+        {
+            "Danger level": 6,
+            "Description": "Residual energy of a soul",
+            "Name": "Ghost",
+            "Parent type": "None",
+            "Relations": [
+            ],
+            "Sightings": [
+            ]
+        },
+        {
+            "Danger level": 0,
+            "Description": "Moving corpse",
+            "Name": "Zombie",
+            "Parent type": "None",
+            "Relations": [
+            ],
+            "Sightings": [
+            ]
+        },
+        {
+            "Danger level": 0,
+            "Description": "Deader than dead",
+            "Name": "Test",
+            "Parent type": "Zombie",
+            "Relations": [
+            ],
+            "Sightings": [
+            ]
+        },
+        {
+            "Danger level": 2,
+            "Description": "Noisy and annoying ghost",
+            "Name": "Poltergeist",
+            "Parent type": "Ghost",
+            "Relations": [
+            ],
+            "Sightings": [
+            ]
+        },
+        {
+            "Danger level": 0,
+            "Description": "Translucent ball of light",
+            "Name": "Orb",
+            "Parent type": "Ghost",
+            "Relations": [
+            ],
+            "Sightings": [
+            ]
+        },
+        {
+            "Danger level": 9,
+            "Description": "Masters of Hell",
+            "Name": "Demon",
+            "Parent type": "None",
+            "Relations": [
+            ],
+            "Sightings": [
+            ]
+        },
+        {
+            "Danger level": 9,
+            "Description": "Female spirit from Celtic folklore",
+            "Name": "Banshee",
+            "Parent type": "None",
+            "Relations": [
+            ],
+            "Sightings": [
+            ]
+        },
+        {
+            "Danger level": 0,
+            "Description": "Cruel creature",
+            "Name": "Child",
+            "Parent type": "None",
+            "Relations": [
+            ],
+            "Sightings": [
+            ]
+        },
+        {
+            "Danger level": 0,
+            "Description": "Bloodsucking creatures",
+            "Name": "Vampire",
+            "Parent type": "None",
+            "Relations": [
+                {
+                    "ID": 1001
+                }
+            ]
+        },
+        {
+            "Danger level": 0,
+            "Description": "Has he lost his mind?",
+            "Name": "Iron man",
+            "Parent type": "None"
+        }
+    ]
+}
