@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1700</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1700</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Picture">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>10</y>
+      <width>951</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Picture</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Watcher">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>740</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton {
+	background: url(:/pics/Watcher-Icon.png);
+     border: 0px;
+     background-color: transparent;
+ }
+QPushButton:hover {
+	background: url(:/pics/Watcher-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}
+
+
+
+
+
+
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Striber">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>740</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: url(:/pics/Strider-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Strider-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Broadhead">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>740</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Broadhead-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Broadhead-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BellowbackFire">
+    <property name="geometry">
+     <rect>
+      <x>1140</x>
+      <y>740</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Bellowback-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Bellowback-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Tallneck">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>740</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Tallneck-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Tallneck-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Grazer">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>740</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Grazer-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Grazer-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Charger">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>740</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Charger-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Charger-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sawtooth">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>740</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Sawtooth-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Sawtooth-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Scrapper">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>740</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Scrapper-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Scrapper-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Lancehorn">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>740</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Lancehorn-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Lancehorn-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Trampler">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>810</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Trampler-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Trampler-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Thunderjaw">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>810</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Thunderjaw-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Thunderjaw-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ShellWalker">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>810</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/ShellWalker-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/ShellWalker-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Glinthawk">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>810</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Glinthawk-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Glinthawk-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Longleg">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>810</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Longleg-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Longleg-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Stormbird">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>810</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Stormbird-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Stormbird-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Rockbreaker">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>810</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Rockbreaker-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Rockbreaker-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Stalker">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>810</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Stalker-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Stalker-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ravager">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>810</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{
+background: url(:/pics/Ravager-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Ravager-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Snapmaw">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>810</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: url(:/pics/Snapmaw-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Snapmaw-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BellowbackFreeze">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>740</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Bellowback-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Bellowback-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Corruptor">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>810</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Corruptor-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Corruptor-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Deathbringer">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>740</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background: url(:/pics/Deathbringer-Icon.png);
+     border: 0px;
+     background-color: transparent;
+}
+QPushButton:hover {
+	background: url(:/pics/Deathbringer-Icon.png);
+	border: 2px;
+     border-style:solid;
+	border-color:transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Name">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>721</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>35</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;</string>
+    </property>
+    <property name="text">
+     <string>Nаme</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>721</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <layout class="QFormLayout" name="formLayout_2">
+     <property name="labelAlignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <property name="formAlignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="TitleSize">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Размер:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="Size">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Size</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="TitleClass">
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Класс:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="Machine_Class">
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Machine_Class</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="TitleOrigin">
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Происхождение:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="Origin">
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Origin</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="TitleOverride">
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Перехват:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="Override">
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Override</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="TitleWeakness">
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Уязвимость:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="Weakness">
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Weakness</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="TitleStrenght">
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Сопротивляемость:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLabel" name="Strenght">
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Strenght</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="TitleExplosive">
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Уязвимые места:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLabel" name="Explosive">
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Explosive</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0" colspan="2">
+      <widget class="QLabel" name="Description">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;
+background-color: rgba(0, 0, 0, 0.3);
+padding: 5;</string>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="text">
+        <string>Description</string>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1700</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
